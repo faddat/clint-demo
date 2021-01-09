@@ -1,0 +1,9 @@
+syntax = "proto3";
+package faddat.clintdemo.clintdemo;
+
+option go_package = "github.com/faddat/clint-demo/x/clintdemo/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
